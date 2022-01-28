@@ -1,0 +1,5 @@
+rails server
+rails g model Pet name:string breed:string
+
+rails db:migrate
+rails console
